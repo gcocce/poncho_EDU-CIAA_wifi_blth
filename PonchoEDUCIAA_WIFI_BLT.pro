@@ -1,4 +1,4 @@
-update=09/05/2017 20:58:32
+update=12/05/2017 10:12:09 a.m.
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=lib
+LibDir=libs
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -36,5 +36,5 @@ LibName4=conn
 LibName5=74xx
 LibName6=adc-dac
 LibName7=interface
-LibName8=lib/PonchoEDUCIAA_WIFI_BLT
-LibName9=lib/ej2cese
+LibName8=libs/ej2cese
+LibName9=libs/PonchoEDUCIAA_WIFI_BLT
