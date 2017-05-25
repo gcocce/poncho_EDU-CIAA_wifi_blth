@@ -1,4 +1,4 @@
-update=16/05/2017 22:10:22
+update=25/05/2017 08:09:42 p.m.
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=libs
@@ -39,3 +37,5 @@ LibName7=interface
 LibName8=libs/ej2cese
 LibName9=libs/PonchoEDUCIAA_WIFI_BLT
 LibName10=switches
+[general]
+version=1

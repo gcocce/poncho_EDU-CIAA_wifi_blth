@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name PonchoEDUCIAA_WIFI_BLTH)(type KiCad)(uri "$(KIPRJMOD)/PonchoEDUCIAA_WIFI_BLTH.pretty")(options "")(descr ""))
+)
