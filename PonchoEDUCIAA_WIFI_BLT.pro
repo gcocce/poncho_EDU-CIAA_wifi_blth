@@ -1,4 +1,4 @@
-update=26/05/2017 05:53:13 p.m.
+update=30/05/2017 8:59:16
 version=1
 last_client=kicad
 [pcbnew]
@@ -35,7 +35,7 @@ LibName5=74xx
 LibName6=adc-dac
 LibName7=interface
 LibName8=libs/ej2cese
-LibName9=libs/PonchoEDUCIAA_WIFI_BLT
-LibName10=switches
+LibName9=switches
+LibName10=libs/PonchoEDUCIAA_WIFI_BLTH
 [general]
 version=1

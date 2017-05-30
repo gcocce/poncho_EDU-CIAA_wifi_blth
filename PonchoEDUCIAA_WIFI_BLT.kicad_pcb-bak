@@ -2,7 +2,7 @@
 
   (general
     (links 52)
-    (no_connects 40)
+    (no_connects 36)
     (area 0 0 0 0)
     (thickness 1.6)
     (drawings 0)
@@ -534,7 +534,7 @@
   )
 
   (module PonchoEDUCIAA_WIFI_BLTH:CON_PALETA_3 (layer F.Cu) (tedit 55918D28) (tstamp 592D6236)
-    (at 155 123.5)
+    (at 148.5011 105.0036)
     (path /591B2551)
     (fp_text reference J1 (at -2.8 -3.8) (layer F.SilkS)
       (effects (font (size 0.762 0.4572) (thickness 0.127)))
@@ -849,7 +849,7 @@
   )
 
   (module Buttons_Switches_THT:SW_PUSH_6mm (layer F.Cu) (tedit 58134C96) (tstamp 592D626E)
-    (at 128 123)
+    (at 148.5011 105.0036)
     (descr https://www.omron.com/ecb/products/pdf/en-b3f.pdf)
     (tags "tact sw push 6mm")
     (path /591BAB0F)
@@ -925,7 +925,7 @@
   )
 
   (module PonchoEDUCIAA_WIFI_BLTH:ESP32-WROOM (layer F.Cu) (tedit 57D08EA8) (tstamp 592D62A8)
-    (at 141 92.5)
+    (at 148.5011 105.0036)
     (path /5911A5F3)
     (fp_text reference U1 (at -11.557 9.017) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1031,7 +1031,7 @@
   )
 
   (module PonchoEDUCIAA_WIFI_BLTH:Conn_Poncho_Derecha (layer F.Cu) (tedit 565779F5) (tstamp 592D6301)
-    (at 180 81)
+    (at 148.5011 105.0036)
     (tags "CONN Poncho")
     (path /5911AAD2)
     (fp_text reference XA1 (at -0.508 -2.032) (layer F.SilkS)
