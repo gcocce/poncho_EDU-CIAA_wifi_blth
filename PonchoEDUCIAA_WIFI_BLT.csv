@@ -1,8 +1,8 @@
 Source:,E:/Embebidos/Materias/Diseño de PCB/Proyectos/PonchoEDUCIAA_WIFI_BLT/PonchoEDUCIAA_WIFI_BLT.sch
-Date:,08/06/2017 11:27:10 p.m.
+Date:,24/06/2017 05:13:56 p.m.
 Tool:,Eeschema 4.0.6
 Generator:,E:/Embebidos/Materias/Dise�o de PCB/Proyectos/PonchoEDUCIAA_WIFI_BLT/tools/bom_csv_grouped_by_value.py
-Component Count:,23
+Component Count:,24
 
 Individual Components:
 
@@ -26,6 +26,7 @@ Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Desc,Descripcion,Digikey
 ,,R5,400,device:R_Small,Resistors_SMD:R_1206_HandSoldering,http://www.vishay.com/docs/60024/pat.pdf,RES SMD 400 OHM 0.1% 0.15W 0603,,PAT400ACT-ND,Vishay Thin Film,PAT0603E4000BST1
 ,,R6,470,device:R_Small,Resistors_SMD:R_1206_HandSoldering,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,RES SMD 470 OHM 1% 1/16W 0402,,RMCF0402FT470RCT-ND,Stackpole Electronics Inc.,RMCF0402FT470R
 ,,R7,5k,device:R_Small,Resistors_SMD:R_1206_HandSoldering,http://www.vishay.com/docs/28779/tnpue3.pdf,RES SMD 5K OHM 0.05% 1/4W 1206,,541-3307-1-ND,Vishay Dale,TNPU12065K00AZEN00
+,,R8,5k,device:R_Small,Resistors_SMD:R_1206_HandSoldering,http://www.vishay.com/docs/28779/tnpue3.pdf,RES SMD 5K OHM 0.05% 1/4W 1206,,541-3307-1-ND,Vishay Dale,TNPU12065K00AZEN00
 ,,SW1,Reset,switches:SW_Push,Buttons_Switches_THT:SW_PUSH_6mm,http://www.ckswitches.com/media/1341/d6.pdf,SWITCH PUSH SPST-NO 0.1A 32V,,401-1969-ND,C&K,D6C90 F1 LFS
 ,,SW2,Boot,switches:SW_SPDT,Buttons_Switches_THT:SW_Micro_SPST,http://www.ckswitches.com/media/1422/js.pdf,SWITCH SLIDE DPDT 300MA 6V,,401-2001-ND,C&K,JS202011CQN
 ,,U1,ESP32-WROOM,PonchoEDUCIAA_WIFI_BLTH:ESP32-WROOM,PonchoEDUCIAA_WIFI_BLTH:ESP32-WROOM,https://www.espressif.com/sites/default/files/documentation/esp_wroom_32_datasheet_en.pdf,TXRX MOD BLE WIFI ESP-WROOM-32,,1528-1801-ND,Adafruit Industries LLC,3320
@@ -48,7 +49,7 @@ Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Desc,Descripcion,Digikey
 10,3,"R1, R4, R5",400,device:R_Small,Resistors_SMD:R_1206_HandSoldering,http://www.vishay.com/docs/60024/pat.pdf,RES SMD 400 OHM 0.1% 0.15W 0603,,PAT400ACT-ND,Vishay Thin Film,PAT0603E4000BST1
 11,1,R2,10k,device:R_Small,Resistors_SMD:R_1206_HandSoldering,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English,"10k Ohm ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film",,A102579CT-ND,TE Connectivity Passive Product,CPF0402B10KE1
 12,2,"R3, R6",470,device:R_Small,Resistors_SMD:R_1206_HandSoldering,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,RES SMD 470 OHM 1% 1/16W 0402,,RMCF0402FT470RCT-ND,Stackpole Electronics Inc.,RMCF0402FT470R
-13,1,R7,5k,device:R_Small,Resistors_SMD:R_1206_HandSoldering,http://www.vishay.com/docs/28779/tnpue3.pdf,RES SMD 5K OHM 0.05% 1/4W 1206,,541-3307-1-ND,Vishay Dale,TNPU12065K00AZEN00
+13,2,"R7, R8",5k,device:R_Small,Resistors_SMD:R_1206_HandSoldering,http://www.vishay.com/docs/28779/tnpue3.pdf,RES SMD 5K OHM 0.05% 1/4W 1206,,541-3307-1-ND,Vishay Dale,TNPU12065K00AZEN00
 14,1,SW1,Reset,switches:SW_Push,Buttons_Switches_THT:SW_PUSH_6mm,http://www.ckswitches.com/media/1341/d6.pdf,SWITCH PUSH SPST-NO 0.1A 32V,,401-1969-ND,C&K,D6C90 F1 LFS
 15,1,SW2,Boot,switches:SW_SPDT,Buttons_Switches_THT:SW_Micro_SPST,http://www.ckswitches.com/media/1422/js.pdf,SWITCH SLIDE DPDT 300MA 6V,,401-2001-ND,C&K,JS202011CQN
 16,1,U1,ESP32-WROOM,PonchoEDUCIAA_WIFI_BLTH:ESP32-WROOM,PonchoEDUCIAA_WIFI_BLTH:ESP32-WROOM,https://www.espressif.com/sites/default/files/documentation/esp_wroom_32_datasheet_en.pdf,TXRX MOD BLE WIFI ESP-WROOM-32,,1528-1801-ND,Adafruit Industries LLC,3320
