@@ -13,6 +13,16 @@
   )
 
   (page A4)
+  (title_block
+    (title "Poncho EDU-CIAA WIFI-BLUETOOTH")
+    (rev 1.0)
+    (company "Carrera de Especialización en Sistemas Embebidos")
+    (comment 1 "Curso: Diseño de PCB")
+    (comment 2 "Licencia BSD")
+    (comment 3 "Revisor: Franklin Angulo")
+    (comment 4 "Autor: Julio Gastón Coccé")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
