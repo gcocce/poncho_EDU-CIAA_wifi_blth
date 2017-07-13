@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>E:/Embebidos/Materias/Diseño de PCB/Proyectos/PonchoEDUCIAA_WIFI_BLT/PonchoEDUCIAA_WIFI_BLT.sch</source>
-    <date>24/06/2017 05:13:56 p.m.</date>
+    <source>D:/Embebidos/Materias/Diseño de PCB/Proyectos/poncho_EDU-CIAA_wifi_blth/PonchoEDUCIAA_WIFI_BLT.sch</source>
+    <date>13/07/2017 10:12:25</date>
     <tool>Eeschema 4.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Poncho EDU-CIAA WIFI-BLUETOOTH</title>
-        <company>CESE</company>
-        <rev>1.0</rev>
+        <company>Carrera de Especialización en Sistemas Embebidos</company>
+        <rev>1.1</rev>
         <date/>
         <source>PonchoEDUCIAA_WIFI_BLT.sch</source>
-        <comment number="1" value="Licencia BSD"/>
-        <comment number="2" value="Autor: Julio Gastón Coccé"/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
+        <comment number="1" value="Curso: Diseño de PCB"/>
+        <comment number="2" value="Licencia BSD"/>
+        <comment number="3" value="Revisor: Franklin Angulo"/>
+        <comment number="4" value="Autor: Julio Gastón Coccé"/>
       </title_block>
     </sheet>
   </design>
@@ -27,9 +27,10 @@
         <field name="Manf">Adafruit Industries LLC</field>
         <field name="Manf#">3320</field>
         <field name="Digikey#">1528-1801-ND</field>
+        <field name="Mouser#">485-3320</field>
         <field name="Desc">TXRX MOD BLE WIFI ESP-WROOM-32</field>
       </fields>
-      <libsource lib="PonchoEDUCIAA_WIFI_BLTH" part="ESP32-WROOM"/>
+      <libsource lib="PonchoEDUCIAA_WIFI_BLT-cache" part="ESP32-WROOM"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5911A5F3</tstamp>
     </comp>
@@ -41,21 +42,23 @@
         <field name="Manf">Harwin Inc.</field>
         <field name="Manf#">M50-3501042</field>
         <field name="Digikey#">952-1386-ND</field>
+        <field name="Mouser#">855-M50-3501042</field>
         <field name="Desc">CONN HDR 1.27MM VERT AU 20POS</field>
       </fields>
-      <libsource lib="ej2cese" part="Conn_Poncho2P_2x_20x2"/>
+      <libsource lib="PonchoEDUCIAA_WIFI_BLT-cache" part="Conn_Poncho2P_2x_20x2"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5911AAD2</tstamp>
     </comp>
     <comp ref="R5">
-      <value>400</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <datasheet>http://www.vishay.com/docs/60024/pat.pdf</datasheet>
+      <value>402</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf</datasheet>
       <fields>
-        <field name="Manf">Vishay Thin Film</field>
-        <field name="Manf#">PAT0603E4000BST1</field>
-        <field name="Digikey#">PAT400ACT-ND</field>
-        <field name="Desc">RES SMD 400 OHM 0.1% 0.15W 0603</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805FR-07402RL</field>
+        <field name="Digikey#">311-402CRCT-ND</field>
+        <field name="Mouser#">603-RC0805FR-07402RL</field>
+        <field name="Desc">RES SMD 402 OHM 1% 1/8W 0805</field>
       </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -69,6 +72,7 @@
         <field name="Manf">Dialight</field>
         <field name="Manf#">5612201050F</field>
         <field name="Digikey#">350-2814-ND</field>
+        <field name="Mouser#">645-561-2201-050F</field>
         <field name="Desc">LED 5MM VERT HE DIFF GRN PC MNT</field>
       </fields>
       <libsource lib="device" part="LED_Small"/>
@@ -76,14 +80,15 @@
       <tstamp>5915C18C</tstamp>
     </comp>
     <comp ref="R4">
-      <value>400</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <datasheet>http://www.vishay.com/docs/60024/pat.pdf</datasheet>
+      <value>402</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf</datasheet>
       <fields>
-        <field name="Manf">Vishay Thin Film</field>
-        <field name="Manf#">PAT0603E4000BST1</field>
-        <field name="Digikey#">PAT400ACT-ND</field>
-        <field name="Desc">RES SMD 400 OHM 0.1% 0.15W 0603</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805FR-07402RL</field>
+        <field name="Digikey#">311-402CRCT-ND</field>
+        <field name="Mouser#">603-RC0805FR-07402RL</field>
+        <field name="Desc">RES SMD 402 OHM 1% 1/8W 0805</field>
       </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -97,6 +102,7 @@
         <field name="Manf">Dialight</field>
         <field name="Manf#">5500804F</field>
         <field name="Digikey#">350-1615-ND</field>
+        <field name="Mouser#">645-550-0804F</field>
         <field name="Desc">LED 5MM 5V VERTICAL YELLOW PCMNT</field>
       </fields>
       <libsource lib="device" part="LED_Small"/>
@@ -104,14 +110,15 @@
       <tstamp>5915C2A8</tstamp>
     </comp>
     <comp ref="R1">
-      <value>400</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <datasheet>http://www.vishay.com/docs/60024/pat.pdf</datasheet>
+      <value>402</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf</datasheet>
       <fields>
-        <field name="Manf">Vishay Thin Film</field>
-        <field name="Manf#">PAT0603E4000BST1</field>
-        <field name="Digikey#">PAT400ACT-ND</field>
-        <field name="Desc">RES SMD 400 OHM 0.1% 0.15W 0603</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805FR-07402RL</field>
+        <field name="Digikey#">311-402CRCT-ND</field>
+        <field name="Mouser#">603-RC0805FR-07402RL</field>
+        <field name="Desc">RES SMD 402 OHM 1% 1/8W 0805</field>
       </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -125,6 +132,7 @@
         <field name="Manf">Dialight</field>
         <field name="Manf#">5500504F</field>
         <field name="Digikey#">350-1608-ND</field>
+        <field name="Mouser#">645-550-0504F</field>
         <field name="Desc">LED 5MM 5V VERTICAL RED PC MNT</field>
       </fields>
       <libsource lib="device" part="LED_Small"/>
@@ -139,6 +147,7 @@
         <field name="Manf">Molex, LLC</field>
         <field name="Manf#">0022272031</field>
         <field name="Digikey#">WM4112-ND</field>
+        <field name="Mouser#">538-22-27-2031</field>
         <field name="Desc">CONN HEADER 3POS .100 VERT TIN</field>
       </fields>
       <libsource lib="conn" part="CONN_01X03"/>
@@ -153,6 +162,7 @@
         <field name="Manf">Murata Electronics North America</field>
         <field name="Manf#">GRM1555C1H101JA01D</field>
         <field name="Digikey#">490-5922-1-ND</field>
+        <field name="Mouser#">81-GRM1555C1H101JA1D</field>
         <field name="Desc">100pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)</field>
       </fields>
       <libsource lib="device" part="C_Small"/>
@@ -167,6 +177,7 @@
         <field name="Manf">Murata Electronics North America</field>
         <field name="Manf#">GRM219R60J106KE19D</field>
         <field name="Digikey#">490-3340-1-ND</field>
+        <field name="Mouser#">81-GRM219R60J106KE9D</field>
         <field name="Desc">10µF ±10% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)</field>
       </fields>
       <libsource lib="device" part="C_Small"/>
@@ -181,6 +192,7 @@
         <field name="Manf">AVX Corporation</field>
         <field name="Manf#">02016D104KAT2A</field>
         <field name="Digikey#">478-5266-1-ND</field>
+        <field name="Mouser#">581-02016D104KAT2A</field>
         <field name="Desc">0.1µF ±10% 6.3V Ceramic Capacitor X5R 0201 (0603 Metric)</field>
       </fields>
       <libsource lib="device" part="C_Small"/>
@@ -189,13 +201,14 @@
     </comp>
     <comp ref="R3">
       <value>470</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf</datasheet>
       <fields>
-        <field name="Manf">Stackpole Electronics Inc.</field>
-        <field name="Manf#">RMCF0402FT470R</field>
-        <field name="Digikey#">RMCF0402FT470RCT-ND</field>
-        <field name="Desc">RES SMD 470 OHM 1% 1/16W 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805FR-07470RL</field>
+        <field name="Digikey#">311-470CRCT-ND</field>
+        <field name="Mouser#">603-RC0805FR-07470RL</field>
+        <field name="Desc">RES SMD 470 OHM 1% 1/8W 0805</field>
       </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -203,13 +216,14 @@
     </comp>
     <comp ref="R2">
       <value>10k</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <datasheet>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773200&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Resistors%20Thermistors%20PDFs/ERA_Series_LE.pdf</datasheet>
       <fields>
-        <field name="Manf">TE Connectivity Passive Product</field>
-        <field name="Manf#">CPF0402B10KE1</field>
-        <field name="Digikey#">A102579CT-ND</field>
-        <field name="Desc">10k Ohm ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film</field>
+        <field name="Manf">Panasonic Electronic Components</field>
+        <field name="Manf#">ERA-6AEB103V</field>
+        <field name="Digikey#">P10KDACT-ND</field>
+        <field name="Mouser#">667-ERA-6AEB103V</field>
+        <field name="Desc">RES SMD 10K OHM 0.1% 1/8W 0805</field>
       </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -223,6 +237,7 @@
         <field name="Manf">Murata Electronics North America</field>
         <field name="Manf#">GRM1555C1H100JA01D</field>
         <field name="Digikey#">490-5921-1-ND</field>
+        <field name="Mouser#">81-GRM1555C1H100JA1D</field>
         <field name="Desc">10pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)</field>
       </fields>
       <libsource lib="device" part="C_Small"/>
@@ -237,6 +252,7 @@
         <field name="Manf">AVX Corporation</field>
         <field name="Manf#">0201ZA101JAT2A</field>
         <field name="Digikey#">478-1026-1-ND</field>
+        <field name="Mouser#">581-0201ZA101JAT2A</field>
         <field name="Desc">100pF ±5% 10V Ceramic Capacitor C0G, NP0 0201 (0603 Metric)</field>
       </fields>
       <libsource lib="device" part="C_Small"/>
@@ -245,13 +261,14 @@
     </comp>
     <comp ref="R7">
       <value>5k</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <datasheet>http://www.vishay.com/docs/28779/tnpue3.pdf</datasheet>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.vishay.com/docs/20008/dcrcw.pdf</datasheet>
       <fields>
         <field name="Manf">Vishay Dale</field>
-        <field name="Manf#">TNPU12065K00AZEN00</field>
-        <field name="Digikey#">541-3307-1-ND</field>
-        <field name="Desc">RES SMD 5K OHM 0.05% 1/4W 1206</field>
+        <field name="Manf#">CRCW08055K00FKTA</field>
+        <field name="Digikey#">CRCW08055K00FKTA-ND</field>
+        <field name="Mouser#">71-CRCW0805-5K</field>
+        <field name="Desc">RES SMD 5K OHM 1% 1/8W 0805</field>
       </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -259,13 +276,14 @@
     </comp>
     <comp ref="R6">
       <value>470</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf</datasheet>
       <fields>
-        <field name="Manf">Stackpole Electronics Inc.</field>
-        <field name="Manf#">RMCF0402FT470R</field>
-        <field name="Digikey#">RMCF0402FT470RCT-ND</field>
-        <field name="Desc">RES SMD 470 OHM 1% 1/16W 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805FR-07470RL</field>
+        <field name="Digikey#">311-470CRCT-ND</field>
+        <field name="Mouser#">603-RC0805FR-07470RL</field>
+        <field name="Desc">RES SMD 470 OHM 1% 1/8W 0805</field>
       </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -279,6 +297,7 @@
         <field name="Manf">C&amp;K</field>
         <field name="Manf#">D6C90 F1 LFS</field>
         <field name="Digikey#">401-1969-ND</field>
+        <field name="Mouser#">611-D6C90F1LFS</field>
         <field name="Desc">SWITCH PUSH SPST-NO 0.1A 32V</field>
       </fields>
       <libsource lib="switches" part="SW_Push"/>
@@ -293,6 +312,7 @@
         <field name="Manf">C&amp;K</field>
         <field name="Manf#">JS202011CQN</field>
         <field name="Digikey#">401-2001-ND</field>
+        <field name="Mouser#">611-JS202011CQN</field>
         <field name="Desc">SWITCH SLIDE DPDT 300MA 6V</field>
       </fields>
       <libsource lib="switches" part="SW_SPDT"/>
@@ -305,7 +325,7 @@
       <fields>
         <field name="Descripcion">FIDUCIAL</field>
       </fields>
-      <libsource lib="ej2cese" part="FIDUCIAL"/>
+      <libsource lib="PonchoEDUCIAA_WIFI_BLT-cache" part="FIDUCIAL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>592DFF9B</tstamp>
     </comp>
@@ -315,7 +335,7 @@
       <fields>
         <field name="Descripcion">FIDUCIAL</field>
       </fields>
-      <libsource lib="ej2cese" part="FIDUCIAL"/>
+      <libsource lib="PonchoEDUCIAA_WIFI_BLT-cache" part="FIDUCIAL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>592E0238</tstamp>
     </comp>
@@ -325,19 +345,20 @@
       <fields>
         <field name="Descripcion">FIDUCIAL</field>
       </fields>
-      <libsource lib="ej2cese" part="FIDUCIAL"/>
+      <libsource lib="PonchoEDUCIAA_WIFI_BLT-cache" part="FIDUCIAL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>592E4AA5</tstamp>
     </comp>
     <comp ref="R8">
       <value>5k</value>
-      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <datasheet>http://www.vishay.com/docs/28779/tnpue3.pdf</datasheet>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.vishay.com/docs/20008/dcrcw.pdf</datasheet>
       <fields>
         <field name="Manf">Vishay Dale</field>
-        <field name="Manf#">TNPU12065K00AZEN00</field>
-        <field name="Digikey#">541-3307-1-ND</field>
-        <field name="Desc">RES SMD 5K OHM 0.05% 1/4W 1206</field>
+        <field name="Manf#">CRCW08055K00FKTA</field>
+        <field name="Digikey#">CRCW08055K00FKTA-ND</field>
+        <field name="Mouser#">71-CRCW0805-5K</field>
+        <field name="Desc">RES SMD 5K OHM 1% 1/8W 0805</field>
       </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -377,7 +398,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ej2cese" part="Conn_Poncho2P_2x_20x2">
+    <libpart lib="PonchoEDUCIAA_WIFI_BLT-cache" part="Conn_Poncho2P_2x_20x2">
       <fields>
         <field name="Reference">XA</field>
         <field name="Value">Conn_Poncho2P_2x_20x2</field>
@@ -465,7 +486,7 @@
         <pin num="80" name="GPIO8" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="PonchoEDUCIAA_WIFI_BLTH" part="ESP32-WROOM">
+    <libpart lib="PonchoEDUCIAA_WIFI_BLT-cache" part="ESP32-WROOM">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">ESP32-WROOM</field>
@@ -513,7 +534,7 @@
         <pin num="39" name="GND-PAD" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="ej2cese" part="FIDUCIAL">
+    <libpart lib="PonchoEDUCIAA_WIFI_BLT-cache" part="FIDUCIAL">
       <fields>
         <field name="Reference">F</field>
         <field name="Value">FIDUCIAL</field>
@@ -577,20 +598,17 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="device">
-      <uri>D:\Program Files\KiCad\share\kicad\library\device.lib</uri>
-    </library>
     <library logical="conn">
       <uri>D:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
-    </library>
-    <library logical="ej2cese">
-      <uri>E:\Embebidos\Materias\Diseño de PCB\Proyectos\PonchoEDUCIAA_WIFI_BLT\libs\ej2cese.lib</uri>
     </library>
     <library logical="switches">
       <uri>D:\Program Files\KiCad\share\kicad\library\switches.lib</uri>
     </library>
-    <library logical="PonchoEDUCIAA_WIFI_BLTH">
-      <uri>E:\Embebidos\Materias\Diseño de PCB\Proyectos\PonchoEDUCIAA_WIFI_BLT\libs\PonchoEDUCIAA_WIFI_BLTH.lib</uri>
+    <library logical="PonchoEDUCIAA_WIFI_BLT-cache">
+      <uri>D:\Embebidos\Materias\Diseño de PCB\Proyectos\poncho_EDU-CIAA_wifi_blth\PonchoEDUCIAA_WIFI_BLT-cache.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>D:\Program Files\KiCad\share\kicad\library\device.lib</uri>
     </library>
   </libraries>
   <nets>
@@ -604,213 +622,213 @@
     <net code="3" name="Net-(U1-Pad37)">
       <node ref="U1" pin="37"/>
     </net>
-    <net code="4" name="Net-(SW2-Pad1)">
+    <net code="4" name="Net-(J1-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="XA1" pin="23"/>
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="5" name="Net-(J1-Pad2)">
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="34"/>
+      <node ref="XA1" pin="25"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="6" name="Net-(SW2-Pad1)">
       <node ref="SW2" pin="1"/>
     </net>
-    <net code="5" name="Net-(U1-Pad17)">
-      <node ref="U1" pin="17"/>
-    </net>
-    <net code="6" name="Net-(U1-Pad18)">
-      <node ref="U1" pin="18"/>
-    </net>
-    <net code="7" name="Net-(U1-Pad22)">
-      <node ref="U1" pin="22"/>
-    </net>
-    <net code="8" name="Net-(U1-Pad21)">
-      <node ref="U1" pin="21"/>
-    </net>
-    <net code="9" name="Net-(U1-Pad19)">
-      <node ref="U1" pin="19"/>
-    </net>
-    <net code="10" name="Net-(U1-Pad20)">
+    <net code="7" name="Net-(U1-Pad20)">
       <node ref="U1" pin="20"/>
     </net>
-    <net code="11" name="Net-(R6-Pad2)">
-      <node ref="R7" pin="2"/>
-      <node ref="R6" pin="2"/>
-      <node ref="U1" pin="25"/>
-    </net>
-    <net code="12" name="Net-(U1-Pad16)">
-      <node ref="U1" pin="16"/>
-    </net>
-    <net code="13" name="+3V3">
-      <node ref="XA1" pin="1"/>
-      <node ref="R1" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="R2" pin="1"/>
-      <node ref="U1" pin="2"/>
-      <node ref="R7" pin="1"/>
-      <node ref="C2" pin="2"/>
-    </net>
-    <net code="14" name="Net-(C5-Pad2)">
-      <node ref="R6" pin="1"/>
-      <node ref="SW2" pin="3"/>
-      <node ref="C5" pin="2"/>
-    </net>
-    <net code="15" name="Net-(XA1-Pad36)">
-      <node ref="XA1" pin="36"/>
-    </net>
-    <net code="16" name="Net-(XA1-Pad34)">
-      <node ref="XA1" pin="34"/>
-    </net>
-    <net code="17" name="Net-(U1-Pad6)">
-      <node ref="U1" pin="6"/>
-    </net>
-    <net code="18" name="Net-(U1-Pad14)">
-      <node ref="U1" pin="14"/>
-    </net>
-    <net code="19" name="Net-(U1-Pad13)">
-      <node ref="U1" pin="13"/>
-    </net>
-    <net code="20" name="Net-(U1-Pad12)">
-      <node ref="U1" pin="12"/>
-    </net>
-    <net code="21" name="Net-(U1-Pad11)">
-      <node ref="U1" pin="11"/>
-    </net>
-    <net code="22" name="Net-(U1-Pad10)">
-      <node ref="U1" pin="10"/>
-    </net>
-    <net code="23" name="Net-(U1-Pad9)">
-      <node ref="U1" pin="9"/>
-    </net>
-    <net code="24" name="Net-(U1-Pad8)">
-      <node ref="U1" pin="8"/>
-    </net>
-    <net code="25" name="Net-(U1-Pad7)">
-      <node ref="U1" pin="7"/>
-    </net>
-    <net code="26" name="Net-(J1-Pad2)">
-      <node ref="J1" pin="2"/>
-      <node ref="XA1" pin="25"/>
-      <node ref="U1" pin="34"/>
-      <node ref="R4" pin="1"/>
-    </net>
-    <net code="27" name="Net-(U1-Pad26)">
-      <node ref="U1" pin="26"/>
-    </net>
-    <net code="28" name="Net-(U1-Pad27)">
-      <node ref="U1" pin="27"/>
-    </net>
-    <net code="29" name="Net-(U1-Pad28)">
-      <node ref="U1" pin="28"/>
-    </net>
-    <net code="30" name="Net-(U1-Pad29)">
-      <node ref="U1" pin="29"/>
-    </net>
-    <net code="31" name="Net-(U1-Pad30)">
-      <node ref="U1" pin="30"/>
-    </net>
-    <net code="32" name="Net-(U1-Pad31)">
+    <net code="8" name="Net-(U1-Pad31)">
       <node ref="U1" pin="31"/>
     </net>
-    <net code="33" name="Net-(U1-Pad33)">
+    <net code="9" name="Net-(U1-Pad33)">
       <node ref="U1" pin="33"/>
     </net>
-    <net code="34" name="Net-(U1-Pad23)">
+    <net code="10" name="Net-(U1-Pad23)">
       <node ref="U1" pin="23"/>
     </net>
-    <net code="35" name="Net-(D3-Pad2)">
-      <node ref="D3" pin="2"/>
-      <node ref="R4" pin="2"/>
+    <net code="11" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
     </net>
-    <net code="36" name="Net-(D2-Pad2)">
-      <node ref="D2" pin="2"/>
-      <node ref="R5" pin="2"/>
+    <net code="12" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
     </net>
-    <net code="37" name="Net-(R8-Pad2)">
-      <node ref="U1" pin="24"/>
-      <node ref="R8" pin="2"/>
+    <net code="13" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
     </net>
-    <net code="38" name="Net-(C3-Pad1)">
-      <node ref="C3" pin="1"/>
-      <node ref="R3" pin="1"/>
-      <node ref="SW1" pin="2"/>
+    <net code="14" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
     </net>
-    <net code="39" name="Net-(C4-Pad1)">
-      <node ref="U1" pin="3"/>
-      <node ref="R2" pin="2"/>
-      <node ref="C4" pin="1"/>
-      <node ref="R3" pin="2"/>
+    <net code="15" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
     </net>
-    <net code="40" name="Net-(J1-Pad1)">
-      <node ref="U1" pin="35"/>
-      <node ref="R5" pin="1"/>
-      <node ref="XA1" pin="23"/>
-      <node ref="J1" pin="1"/>
+    <net code="16" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
     </net>
-    <net code="41" name="Net-(F3-Pad1)">
-      <node ref="F3" pin="1"/>
+    <net code="17" name="Net-(U1-Pad30)">
+      <node ref="U1" pin="30"/>
     </net>
-    <net code="42" name="Net-(F2-Pad1)">
-      <node ref="F2" pin="1"/>
+    <net code="18" name="+3V3">
+      <node ref="U1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="XA1" pin="1"/>
+      <node ref="R2" pin="1"/>
     </net>
-    <net code="43" name="Net-(F1-Pad1)">
-      <node ref="F1" pin="1"/>
-    </net>
-    <net code="44" name="GND">
-      <node ref="XA1" pin="22"/>
-      <node ref="XA1" pin="32"/>
+    <net code="19" name="GND">
+      <node ref="XA1" pin="26"/>
+      <node ref="XA1" pin="40"/>
       <node ref="XA1" pin="24"/>
-      <node ref="U1" pin="39"/>
-      <node ref="XA1" pin="28"/>
+      <node ref="XA1" pin="30"/>
+      <node ref="XA1" pin="20"/>
+      <node ref="XA1" pin="4"/>
+      <node ref="J1" pin="3"/>
       <node ref="U1" pin="1"/>
       <node ref="C3" pin="2"/>
       <node ref="C2" pin="1"/>
       <node ref="C1" pin="1"/>
-      <node ref="J1" pin="3"/>
-      <node ref="U1" pin="38"/>
       <node ref="XA1" pin="38"/>
+      <node ref="XA1" pin="32"/>
       <node ref="D2" pin="1"/>
       <node ref="D3" pin="1"/>
       <node ref="D1" pin="1"/>
       <node ref="C4" pin="2"/>
       <node ref="U1" pin="15"/>
+      <node ref="XA1" pin="28"/>
+      <node ref="U1" pin="38"/>
+      <node ref="U1" pin="39"/>
+      <node ref="XA1" pin="22"/>
       <node ref="C5" pin="1"/>
-      <node ref="SW1" pin="1"/>
       <node ref="SW2" pin="2"/>
       <node ref="R8" pin="1"/>
-      <node ref="XA1" pin="4"/>
-      <node ref="XA1" pin="26"/>
-      <node ref="XA1" pin="40"/>
-      <node ref="XA1" pin="30"/>
-      <node ref="XA1" pin="20"/>
+      <node ref="SW1" pin="1"/>
     </net>
-    <net code="45" name="Net-(XA1-Pad39)">
-      <node ref="XA1" pin="39"/>
+    <net code="20" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
     </net>
-    <net code="46" name="Net-(XA1-Pad6)">
-      <node ref="XA1" pin="6"/>
+    <net code="21" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
     </net>
-    <net code="47" name="Net-(XA1-Pad21)">
-      <node ref="XA1" pin="21"/>
+    <net code="22" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
     </net>
-    <net code="48" name="Net-(XA1-Pad11)">
-      <node ref="XA1" pin="11"/>
+    <net code="23" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
     </net>
-    <net code="49" name="Net-(XA1-Pad10)">
-      <node ref="XA1" pin="10"/>
+    <net code="24" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
     </net>
-    <net code="50" name="Net-(XA1-Pad9)">
-      <node ref="XA1" pin="9"/>
+    <net code="25" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
     </net>
-    <net code="51" name="Net-(XA1-Pad8)">
-      <node ref="XA1" pin="8"/>
+    <net code="26" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
     </net>
-    <net code="52" name="Net-(XA1-Pad7)">
+    <net code="27" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="28" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="29" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="30" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="31" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="32" name="Net-(U1-Pad29)">
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="33" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="34" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2"/>
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="35" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="36" name="Net-(D3-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="37" name="Net-(C5-Pad2)">
+      <node ref="R6" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="SW2" pin="3"/>
+    </net>
+    <net code="38" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="25"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="39" name="Net-(C4-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="40" name="Net-(F3-Pad1)">
+      <node ref="F3" pin="1"/>
+    </net>
+    <net code="41" name="Net-(F2-Pad1)">
+      <node ref="F2" pin="1"/>
+    </net>
+    <net code="42" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="43" name="Net-(XA1-Pad7)">
       <node ref="XA1" pin="7"/>
     </net>
-    <net code="53" name="Net-(XA1-Pad31)">
+    <net code="44" name="Net-(XA1-Pad31)">
       <node ref="XA1" pin="31"/>
     </net>
-    <net code="54" name="Net-(XA1-Pad5)">
+    <net code="45" name="Net-(XA1-Pad21)">
+      <node ref="XA1" pin="21"/>
+    </net>
+    <net code="46" name="Net-(XA1-Pad11)">
+      <node ref="XA1" pin="11"/>
+    </net>
+    <net code="47" name="Net-(XA1-Pad10)">
+      <node ref="XA1" pin="10"/>
+    </net>
+    <net code="48" name="Net-(XA1-Pad9)">
+      <node ref="XA1" pin="9"/>
+    </net>
+    <net code="49" name="Net-(XA1-Pad8)">
+      <node ref="XA1" pin="8"/>
+    </net>
+    <net code="50" name="Net-(XA1-Pad12)">
+      <node ref="XA1" pin="12"/>
+    </net>
+    <net code="51" name="Net-(XA1-Pad6)">
+      <node ref="XA1" pin="6"/>
+    </net>
+    <net code="52" name="Net-(XA1-Pad5)">
       <node ref="XA1" pin="5"/>
     </net>
-    <net code="55" name="Net-(XA1-Pad3)">
+    <net code="53" name="Net-(XA1-Pad3)">
       <node ref="XA1" pin="3"/>
     </net>
-    <net code="56" name="Net-(XA1-Pad2)">
+    <net code="54" name="Net-(XA1-Pad2)">
       <node ref="XA1" pin="2"/>
+    </net>
+    <net code="55" name="Net-(XA1-Pad15)">
+      <node ref="XA1" pin="15"/>
+    </net>
+    <net code="56" name="Net-(XA1-Pad18)">
+      <node ref="XA1" pin="18"/>
     </net>
     <net code="57" name="Net-(XA1-Pad37)">
       <node ref="XA1" pin="37"/>
@@ -821,26 +839,26 @@
     <net code="59" name="Net-(XA1-Pad17)">
       <node ref="XA1" pin="17"/>
     </net>
-    <net code="60" name="Net-(XA1-Pad16)">
+    <net code="60" name="Net-(XA1-Pad36)">
+      <node ref="XA1" pin="36"/>
+    </net>
+    <net code="61" name="Net-(XA1-Pad16)">
       <node ref="XA1" pin="16"/>
     </net>
-    <net code="61" name="Net-(XA1-Pad35)">
+    <net code="62" name="Net-(XA1-Pad35)">
       <node ref="XA1" pin="35"/>
     </net>
-    <net code="62" name="Net-(XA1-Pad15)">
-      <node ref="XA1" pin="15"/>
+    <net code="63" name="Net-(XA1-Pad34)">
+      <node ref="XA1" pin="34"/>
     </net>
-    <net code="63" name="Net-(XA1-Pad14)">
+    <net code="64" name="Net-(XA1-Pad14)">
       <node ref="XA1" pin="14"/>
     </net>
-    <net code="64" name="Net-(XA1-Pad33)">
+    <net code="65" name="Net-(XA1-Pad33)">
       <node ref="XA1" pin="33"/>
     </net>
-    <net code="65" name="Net-(XA1-Pad13)">
+    <net code="66" name="Net-(XA1-Pad13)">
       <node ref="XA1" pin="13"/>
-    </net>
-    <net code="66" name="Net-(XA1-Pad12)">
-      <node ref="XA1" pin="12"/>
     </net>
     <net code="67" name="Net-(U1-Pad32)">
       <node ref="U1" pin="32"/>
@@ -851,8 +869,8 @@
     <net code="69" name="Net-(U1-Pad4)">
       <node ref="U1" pin="4"/>
     </net>
-    <net code="70" name="Net-(XA1-Pad18)">
-      <node ref="XA1" pin="18"/>
+    <net code="70" name="Net-(XA1-Pad39)">
+      <node ref="XA1" pin="39"/>
     </net>
     <net code="71" name="Net-(XA1-Pad29)">
       <node ref="XA1" pin="29"/>
