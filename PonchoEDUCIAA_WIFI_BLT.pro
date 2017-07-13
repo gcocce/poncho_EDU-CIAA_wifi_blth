@@ -1,23 +1,9 @@
-update=11/07/2017 11:30:41
+update=13/07/2017 9:37:05
 version=1
 last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
-[eeschema]
-version=1
-LibDir=libs;PonchoEDUCIAA_WIFI_BLTH.pretty
-[eeschema/libraries]
-LibName1=power
-LibName2=device
-LibName3=transistors
-LibName4=conn
-LibName5=74xx
-LibName6=adc-dac
-LibName7=interface
-LibName8=libs/ej2cese
-LibName9=switches
-LibName10=libs/PonchoEDUCIAA_WIFI_BLTH
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -37,5 +23,17 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
+[eeschema]
+version=1
+LibDir=libs;PonchoEDUCIAA_WIFI_BLTH.pretty
+[eeschema/libraries]
+LibName1=power
+LibName2=device
+LibName3=transistors
+LibName4=conn
+LibName5=74xx
+LibName6=adc-dac
+LibName7=interface
+LibName8=switches
 [general]
 version=1

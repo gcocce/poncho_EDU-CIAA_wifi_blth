@@ -6,9 +6,7 @@ LIBS:conn
 LIBS:74xx
 LIBS:adc-dac
 LIBS:interface
-LIBS:ej2cese
 LIBS:switches
-LIBS:PonchoEDUCIAA_WIFI_BLTH
 LIBS:PonchoEDUCIAA_WIFI_BLT-cache
 EELAYER 25 0
 EELAYER END
@@ -17,7 +15,7 @@ encoding utf-8
 Sheet 1 1
 Title "Poncho EDU-CIAA WIFI-BLUETOOTH"
 Date ""
-Rev "1.0"
+Rev "1.1"
 Comp "Carrera de Especialización en Sistemas Embebidos"
 Comment1 "Curso: Diseño de PCB"
 Comment2 "Licencia BSD"

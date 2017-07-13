@@ -1,8 +1,8 @@
-(module LOGO (layer F.Cu) (tedit 560DAFF4)
-  (fp_text reference G*** (at 0.127 5.588) (layer F.SilkS) hide
+(module PonchoEDUCIAA_WIFI_BLTH:Logo_Poncho (layer F.Cu) (tedit 595A4618)
+  (fp_text reference G1 (at 0.127 5.588) (layer F.SilkS) hide
     (effects (font (thickness 0.3)))
   )
-  (fp_text value LOGO (at 0.762 7.493) (layer F.SilkS) hide
+  (fp_text value WIFI-BLTH (at 0.762 7.493) (layer F.SilkS)
     (effects (font (thickness 0.3)))
   )
   (fp_poly (pts (xy 4.535714 -0.627021) (xy 4.498746 -0.420109) (xy 4.405012 -0.1352) (xy 4.280272 0.162897)

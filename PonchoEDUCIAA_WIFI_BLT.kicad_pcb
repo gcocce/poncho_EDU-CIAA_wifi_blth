@@ -15,7 +15,7 @@
   (page A4)
   (title_block
     (title "Poncho EDU-CIAA WIFI-BLUETOOTH")
-    (rev 1.0)
+    (rev 1.1)
     (company "Carrera de Especialización en Sistemas Embebidos")
     (comment 1 "Curso: Diseño de PCB")
     (comment 2 "Licencia BSD")
@@ -285,7 +285,7 @@
       (net 1 GND))
     (pad 2 smd rect (at 0.95 0 90) (size 1.2 0.75) (layers TOP F.Paste F.Mask)
       (net 10 +3V3))
-    (model ${KIPRJMOD}/PonchoEDUCIAA_WIFI_BLT.3dshapes/C_0603.wrl
+    (model ${KIPRJMOD}/PonchoEDUCIAA_WIFI_BLTH.3dshapes/C_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -321,7 +321,7 @@
       (net 1 GND))
     (pad 2 smd rect (at 0.95 0 270) (size 1.2 0.75) (layers TOP F.Paste F.Mask)
       (net 10 +3V3))
-    (model ${KIPRJMOD}/PonchoEDUCIAA_WIFI_BLT.3dshapes/C_0603.wrl
+    (model ${KIPRJMOD}/PonchoEDUCIAA_WIFI_BLTH.3dshapes/C_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -357,7 +357,7 @@
       (net 2 "Net-(C3-Pad1)"))
     (pad 2 smd rect (at 0.95 0) (size 1.2 0.75) (layers TOP F.Paste F.Mask)
       (net 1 GND))
-    (model ${KIPRJMOD}/PonchoEDUCIAA_WIFI_BLT.3dshapes/C_0603.wrl
+    (model ${KIPRJMOD}/PonchoEDUCIAA_WIFI_BLTH.3dshapes/C_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -393,7 +393,7 @@
       (net 3 "Net-(C4-Pad1)"))
     (pad 2 smd rect (at 0.95 0) (size 1.2 0.75) (layers TOP F.Paste F.Mask)
       (net 1 GND))
-    (model ${KIPRJMOD}/PonchoEDUCIAA_WIFI_BLT.3dshapes/C_0603.wrl
+    (model ${KIPRJMOD}/PonchoEDUCIAA_WIFI_BLTH.3dshapes/C_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -429,7 +429,7 @@
       (net 1 GND))
     (pad 2 smd rect (at 0.95 0) (size 1.2 0.75) (layers TOP F.Paste F.Mask)
       (net 4 "Net-(C5-Pad2)"))
-    (model ${KIPRJMOD}/PonchoEDUCIAA_WIFI_BLT.3dshapes/C_0603.wrl
+    (model ${KIPRJMOD}/PonchoEDUCIAA_WIFI_BLTH.3dshapes/C_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -467,7 +467,7 @@
       (net 5 "Net-(D1-Pad2)"))
     (pad 1 smd rect (at -0.55 0 180) (size 0.6 0.7) (layers TOP F.Paste F.Mask)
       (net 1 GND))
-    (model ${KIPRJMOD}/PonchoEDUCIAA_WIFI_BLT.3dshapes/LED_0402.wrl
+    (model ${KIPRJMOD}/PonchoEDUCIAA_WIFI_BLTH.3dshapes/LED_0402.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -505,7 +505,7 @@
       (net 6 "Net-(D2-Pad2)"))
     (pad 1 smd rect (at -0.55 0 90) (size 0.6 0.7) (layers TOP F.Paste F.Mask)
       (net 1 GND))
-    (model ${KIPRJMOD}/PonchoEDUCIAA_WIFI_BLT.3dshapes/LED_0402.wrl
+    (model ${KIPRJMOD}/PonchoEDUCIAA_WIFI_BLTH.3dshapes/LED_0402.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -543,7 +543,7 @@
       (net 7 "Net-(D3-Pad2)"))
     (pad 1 smd rect (at -0.55 0 90) (size 0.6 0.7) (layers TOP F.Paste F.Mask)
       (net 1 GND))
-    (model ${KIPRJMOD}/PonchoEDUCIAA_WIFI_BLT.3dshapes/LED_0402.wrl
+    (model ${KIPRJMOD}/PonchoEDUCIAA_WIFI_BLTH.3dshapes/LED_0402.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -570,7 +570,7 @@
       (net 9 "Net-(J1-Pad2)"))
     (pad 3 thru_hole circle (at 2.54 0) (size 1.778 1.778) (drill 1) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KIPRJMOD}/PonchoEDUCIAA_WIFI_BLT.3dshapes/CON_PALETA_3.wrl
+    (model ${KIPRJMOD}/PonchoEDUCIAA_WIFI_BLTH.3dshapes/CON_PALETA_3.wrl
       (at (xyz 0 0.012 0))
       (scale (xyz 0.395 0.395 0.395))
       (rotate (xyz 0 0 180))
@@ -618,7 +618,7 @@
       (net 2 "Net-(C3-Pad1)"))
     (pad 1 thru_hole circle (at 6.5 0 90) (size 2 2) (drill 1.1) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KIPRJMOD}/PonchoEDUCIAA_WIFI_BLT.3dshapes/SW_PUSH_6mm.wrl
+    (model ${KIPRJMOD}/PonchoEDUCIAA_WIFI_BLTH.3dshapes/SW_PUSH_6mm.wrl
       (at (xyz 0.005 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
@@ -646,7 +646,7 @@
       (net 1 GND))
     (pad 3 thru_hole circle (at 2.54 0) (size 1.397 1.397) (drill 0.8128) (layers *.Cu *.Mask)
       (net 4 "Net-(C5-Pad2)"))
-    (model ${KIPRJMOD}/PonchoEDUCIAA_WIFI_BLT.3dshapes/SW_Micro_SPST.wrl
+    (model ${KIPRJMOD}/PonchoEDUCIAA_WIFI_BLTH.3dshapes/SW_Micro_SPST.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.33 0.33 0.33))
       (rotate (xyz 0 0 0))
@@ -752,7 +752,7 @@
       (net 1 GND))
     (pad 39 smd rect (at 0.3 -2.45 180) (size 6 6) (layers TOP F.Paste F.Mask)
       (net 1 GND))
-    (model ${KIPRJMOD}/PonchoEDUCIAA_WIFI_BLT.3dshapes/KiCAD-ESP-WROOM-32.wrl
+    (model ${KIPRJMOD}/PonchoEDUCIAA_WIFI_BLTH.3dshapes/KiCAD-ESP-WROOM-32.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -976,7 +976,7 @@
       (net 1 GND))
     (pad 30 thru_hole oval (at 2.54 35.56 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KIPRJMOD}/PonchoEDUCIAA_WIFI_BLT.3dshapes/pin_strip_20x2.wrl
+    (model ${KIPRJMOD}/PonchoEDUCIAA_WIFI_BLTH.3dshapes/pin_strip_20x2.wrl
       (at (xyz 0.05 -0.95 -0.063))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 90))
