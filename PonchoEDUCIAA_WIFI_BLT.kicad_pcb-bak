@@ -15,7 +15,7 @@
   (page A4)
   (title_block
     (title "Poncho EDU-CIAA WIFI-BLUETOOTH")
-    (rev 1.0)
+    (rev 1.1)
     (company "Carrera de Especialización en Sistemas Embebidos")
     (comment 1 "Curso: Diseño de PCB")
     (comment 2 "Licencia BSD")

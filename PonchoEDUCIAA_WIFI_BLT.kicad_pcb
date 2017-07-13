@@ -3,7 +3,7 @@
   (general
     (links 52)
     (no_connects 0)
-    (area 128.924999 73.924999 186.575001 133.575001)
+    (area 128.924999 73.924999 186.575001 133.625)
     (thickness 1.6)
     (drawings 6)
     (tracks 195)
@@ -96,9 +96,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory gerber/))
   )
 
   (net 0 "")
