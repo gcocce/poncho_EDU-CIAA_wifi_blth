@@ -6,9 +6,7 @@ LIBS:conn
 LIBS:74xx
 LIBS:adc-dac
 LIBS:interface
-LIBS:ej2cese
 LIBS:switches
-LIBS:PonchoEDUCIAA_WIFI_BLTH
 LIBS:PonchoEDUCIAA_WIFI_BLT-cache
 EELAYER 25 0
 EELAYER END
@@ -17,7 +15,7 @@ encoding utf-8
 Sheet 1 1
 Title "Poncho EDU-CIAA WIFI-BLUETOOTH"
 Date ""
-Rev "1.0"
+Rev "1.1"
 Comp "Carrera de Especialización en Sistemas Embebidos"
 Comment1 "Curso: Diseño de PCB"
 Comment2 "Licencia BSD"
@@ -111,7 +109,7 @@ U 1 1 5915C18C
 P 6300 4150
 F 0 "D2" V 6400 4200 50  0000 L CNN
 F 1 "LED_Verde" V 6200 4150 50  0000 L CNN
-F 2 "LEDs:LED_0402" V 6300 4150 50  0001 C CNN
+F 2 "LEDs:LED_0805" V 6300 4150 50  0001 C CNN
 F 3 "http://www.dialight.com/Assets/Brochures_And_Catalogs/Indication/561-xx0x-050.pdf" V 6300 4150 50  0001 C CNN
 F 4 "Dialight" H 6300 4150 60  0001 C CNN "Manf"
 F 5 "5612201050F" H 6300 4150 60  0001 C CNN "Manf#"
@@ -143,7 +141,7 @@ U 1 1 5915C2A8
 P 6700 4150
 F 0 "D3" V 6800 4000 50  0000 L CNN
 F 1 "LED_Amarillo" V 6600 3650 50  0000 L CNN
-F 2 "LEDs:LED_0402" V 6700 4150 50  0001 C CNN
+F 2 "LEDs:LED_0805" V 6700 4150 50  0001 C CNN
 F 3 "http://www.dialight.com/Assets/Brochures_And_Catalogs/Indication/550-xx04.pdf" V 6700 4150 50  0001 C CNN
 F 4 "Dialight" H 6700 4150 60  0001 C CNN "Manf"
 F 5 "5500804F" H 6700 4150 60  0001 C CNN "Manf#"
@@ -175,7 +173,7 @@ U 1 1 5915C6BB
 P 7500 5050
 F 0 "D1" V 7450 5150 50  0000 L CNN
 F 1 "LED_Rojo" V 7400 4650 50  0000 L CNN
-F 2 "LEDs:LED_0402" V 7500 5050 50  0001 C CNN
+F 2 "LEDs:LED_0805" V 7500 5050 50  0001 C CNN
 F 3 "http://www.dialight.com/Assets/Brochures_And_Catalogs/Indication/550-xx04.pdf" V 7500 5050 50  0001 C CNN
 F 4 "Dialight" H 7500 5050 60  0001 C CNN "Manf"
 F 5 "5500504F" H 7500 5050 60  0001 C CNN "Manf#"

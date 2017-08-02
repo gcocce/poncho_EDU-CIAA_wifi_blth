@@ -1,13 +1,13 @@
 (export (version D)
   (design
-    (source "D:/Embebidos/Materias/Diseño de PCB/Proyectos/poncho_EDU-CIAA_wifi_blth/PonchoEDUCIAA_WIFI_BLT.sch")
-    (date "10/07/2017 10:58:01")
+    (source "E:/Embebidos/Materias/Diseño de PCB/Proyectos/PonchoEDUCIAA_WIFI_BLT/PonchoEDUCIAA_WIFI_BLT.sch")
+    (date "27/07/2017 12:03:22 p.m.")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Poncho EDU-CIAA WIFI-BLUETOOTH")
         (company "Carrera de Especialización en Sistemas Embebidos")
-        (rev 1.0)
+        (rev 1.1)
         (date)
         (source PonchoEDUCIAA_WIFI_BLT.sch)
         (comment (number 1) (value "Curso: Diseño de PCB"))
@@ -25,7 +25,7 @@
         (field (name Digikey#) 1528-1801-ND)
         (field (name Mouser#) 485-3320)
         (field (name Desc) "TXRX MOD BLE WIFI ESP-WROOM-32"))
-      (libsource (lib PonchoEDUCIAA_WIFI_BLTH) (part ESP32-WROOM))
+      (libsource (lib PonchoEDUCIAA_WIFI_BLT-cache) (part ESP32-WROOM))
       (sheetpath (names /) (tstamps /))
       (tstamp 5911A5F3))
     (comp (ref XA1)
@@ -38,7 +38,7 @@
         (field (name Digikey#) 952-1386-ND)
         (field (name Mouser#) 855-M50-3501042)
         (field (name Desc) "CONN HDR 1.27MM VERT AU 20POS"))
-      (libsource (lib ej2cese) (part Conn_Poncho2P_2x_20x2))
+      (libsource (lib PonchoEDUCIAA_WIFI_BLT-cache) (part Conn_Poncho2P_2x_20x2))
       (sheetpath (names /) (tstamps /))
       (tstamp 5911AAD2))
     (comp (ref R5)
@@ -56,7 +56,7 @@
       (tstamp 5915BEE9))
     (comp (ref D2)
       (value LED_Verde)
-      (footprint LEDs:LED_0402)
+      (footprint LEDs:LED_0805)
       (datasheet http://www.dialight.com/Assets/Brochures_And_Catalogs/Indication/561-xx0x-050.pdf)
       (fields
         (field (name Manf) Dialight)
@@ -82,7 +82,7 @@
       (tstamp 5915C27A))
     (comp (ref D3)
       (value LED_Amarillo)
-      (footprint LEDs:LED_0402)
+      (footprint LEDs:LED_0805)
       (datasheet http://www.dialight.com/Assets/Brochures_And_Catalogs/Indication/550-xx04.pdf)
       (fields
         (field (name Manf) Dialight)
@@ -108,7 +108,7 @@
       (tstamp 5915C673))
     (comp (ref D1)
       (value LED_Rojo)
-      (footprint LEDs:LED_0402)
+      (footprint LEDs:LED_0805)
       (datasheet http://www.dialight.com/Assets/Brochures_And_Catalogs/Indication/550-xx04.pdf)
       (fields
         (field (name Manf) Dialight)
@@ -280,7 +280,7 @@
       (footprint PonchoEDUCIAA_WIFI_BLTH:Fiducial_1mm)
       (fields
         (field (name Descripcion) FIDUCIAL))
-      (libsource (lib ej2cese) (part FIDUCIAL))
+      (libsource (lib PonchoEDUCIAA_WIFI_BLT-cache) (part FIDUCIAL))
       (sheetpath (names /) (tstamps /))
       (tstamp 592DFF9B))
     (comp (ref F2)
@@ -288,7 +288,7 @@
       (footprint PonchoEDUCIAA_WIFI_BLTH:Fiducial_1mm)
       (fields
         (field (name Descripcion) FIDUCIAL))
-      (libsource (lib ej2cese) (part FIDUCIAL))
+      (libsource (lib PonchoEDUCIAA_WIFI_BLT-cache) (part FIDUCIAL))
       (sheetpath (names /) (tstamps /))
       (tstamp 592E0238))
     (comp (ref F3)
@@ -296,7 +296,7 @@
       (footprint PonchoEDUCIAA_WIFI_BLTH:Fiducial_1mm)
       (fields
         (field (name Descripcion) FIDUCIAL))
-      (libsource (lib ej2cese) (part FIDUCIAL))
+      (libsource (lib PonchoEDUCIAA_WIFI_BLT-cache) (part FIDUCIAL))
       (sheetpath (names /) (tstamps /))
       (tstamp 592E4AA5))
     (comp (ref R8)
@@ -337,7 +337,7 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib ej2cese) (part Conn_Poncho2P_2x_20x2)
+    (libpart (lib PonchoEDUCIAA_WIFI_BLT-cache) (part Conn_Poncho2P_2x_20x2)
       (fields
         (field (name Reference) XA)
         (field (name Value) Conn_Poncho2P_2x_20x2))
@@ -422,7 +422,7 @@
         (pin (num 78) (name GPIO7) (type passive))
         (pin (num 79) (name GND) (type passive))
         (pin (num 80) (name GPIO8) (type passive))))
-    (libpart (lib PonchoEDUCIAA_WIFI_BLTH) (part ESP32-WROOM)
+    (libpart (lib PonchoEDUCIAA_WIFI_BLT-cache) (part ESP32-WROOM)
       (fields
         (field (name Reference) U)
         (field (name Value) ESP32-WROOM)
@@ -467,7 +467,7 @@
         (pin (num 37) (name IO23) (type input))
         (pin (num 38) (name GND) (type input))
         (pin (num 39) (name GND-PAD) (type input))))
-    (libpart (lib ej2cese) (part FIDUCIAL)
+    (libpart (lib PonchoEDUCIAA_WIFI_BLT-cache) (part FIDUCIAL)
       (fields
         (field (name Reference) F)
         (field (name Value) FIDUCIAL)
@@ -513,16 +513,14 @@
         (pin (num 2) (name B) (type passive))
         (pin (num 3) (name C) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri "D:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical conn)
       (uri "D:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
-    (library (logical ej2cese)
-      (uri "D:\\Embebidos\\Materias\\Diseño de PCB\\Proyectos\\poncho_EDU-CIAA_wifi_blth\\libs\\ej2cese.lib"))
+    (library (logical device)
+      (uri "D:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical switches)
       (uri "D:\\Program Files\\KiCad\\share\\kicad\\library\\switches.lib"))
-    (library (logical PonchoEDUCIAA_WIFI_BLTH)
-      (uri "D:\\Embebidos\\Materias\\Diseño de PCB\\Proyectos\\poncho_EDU-CIAA_wifi_blth\\libs\\PonchoEDUCIAA_WIFI_BLTH.lib")))
+    (library (logical PonchoEDUCIAA_WIFI_BLT-cache)
+      (uri "E:\\Embebidos\\Materias\\Diseño de PCB\\Proyectos\\PonchoEDUCIAA_WIFI_BLT\\PonchoEDUCIAA_WIFI_BLT-cache.lib")))
   (nets
     (net (code 1) (name "Net-(D1-Pad2)")
       (node (ref D1) (pin 2))

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>D:/Embebidos/Materias/Diseño de PCB/Proyectos/poncho_EDU-CIAA_wifi_blth/PonchoEDUCIAA_WIFI_BLT.sch</source>
-    <date>13/07/2017 10:12:25</date>
+    <source>E:/Embebidos/Materias/Diseño de PCB/Proyectos/PonchoEDUCIAA_WIFI_BLT/PonchoEDUCIAA_WIFI_BLT.sch</source>
+    <date>01/08/2017 09:13:50 p.m.</date>
     <tool>Eeschema 4.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -66,14 +66,14 @@
     </comp>
     <comp ref="D2">
       <value>LED_Verde</value>
-      <footprint>LEDs:LED_0402</footprint>
-      <datasheet>http://www.dialight.com/Assets/Brochures_And_Catalogs/Indication/561-xx0x-050.pdf</datasheet>
+      <footprint>LEDs:LED_0805</footprint>
+      <datasheet>http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf</datasheet>
       <fields>
-        <field name="Manf">Dialight</field>
-        <field name="Manf#">5612201050F</field>
-        <field name="Digikey#">350-2814-ND</field>
-        <field name="Mouser#">645-561-2201-050F</field>
-        <field name="Desc">LED 5MM VERT HE DIFF GRN PC MNT</field>
+        <field name="Manf">OSRAM Opto Semiconductors Inc.</field>
+        <field name="Manf#">LG R971-KN-1</field>
+        <field name="Digikey#">475-1410-1-ND</field>
+        <field name="Mouser#">720-LGR971-KN-1</field>
+        <field name="Desc">LED GREEN DIFFUSED 0805 SMD</field>
       </fields>
       <libsource lib="device" part="LED_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -96,14 +96,14 @@
     </comp>
     <comp ref="D3">
       <value>LED_Amarillo</value>
-      <footprint>LEDs:LED_0402</footprint>
-      <datasheet>http://www.dialight.com/Assets/Brochures_And_Catalogs/Indication/550-xx04.pdf</datasheet>
+      <footprint>LEDs:LED_0805</footprint>
+      <datasheet>http://www.osram-os.com/Graphics/XPic9/00078941_0.pdf</datasheet>
       <fields>
-        <field name="Manf">Dialight</field>
-        <field name="Manf#">5500804F</field>
-        <field name="Digikey#">350-1615-ND</field>
-        <field name="Mouser#">645-550-0804F</field>
-        <field name="Desc">LED 5MM 5V VERTICAL YELLOW PCMNT</field>
+        <field name="Manf">OSRAM Opto Semiconductors Inc.</field>
+        <field name="Manf#">LY R976-PS-36</field>
+        <field name="Digikey#">475-2560-1-ND</field>
+        <field name="Mouser#">720-LYR976-PS-36</field>
+        <field name="Desc">LED YELLOW DIFFUSED 0805 SMD</field>
       </fields>
       <libsource lib="device" part="LED_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -126,14 +126,14 @@
     </comp>
     <comp ref="D1">
       <value>LED_Rojo</value>
-      <footprint>LEDs:LED_0402</footprint>
-      <datasheet>http://www.dialight.com/Assets/Brochures_And_Catalogs/Indication/550-xx04.pdf</datasheet>
+      <footprint>LEDs:LED_0805</footprint>
+      <datasheet>http://www.osram-os.com/Graphics/XPic8/00078896_0.pdf</datasheet>
       <fields>
-        <field name="Manf">Dialight</field>
-        <field name="Manf#">5500504F</field>
-        <field name="Digikey#">350-1608-ND</field>
-        <field name="Mouser#">645-550-0504F</field>
-        <field name="Desc">LED 5MM 5V VERTICAL RED PC MNT</field>
+        <field name="Manf">OSRAM Opto Semiconductors Inc.</field>
+        <field name="Manf#">LS R976-NR-1</field>
+        <field name="Digikey#">475-1278-1-ND</field>
+        <field name="Mouser#">720-LSR976-NR-1</field>
+        <field name="Desc">LED RED DIFFUSED 0805 SMD</field>
       </fields>
       <libsource lib="device" part="LED_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -598,6 +598,9 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="device">
+      <uri>D:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
     <library logical="conn">
       <uri>D:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
     </library>
@@ -605,10 +608,7 @@
       <uri>D:\Program Files\KiCad\share\kicad\library\switches.lib</uri>
     </library>
     <library logical="PonchoEDUCIAA_WIFI_BLT-cache">
-      <uri>D:\Embebidos\Materias\Diseño de PCB\Proyectos\poncho_EDU-CIAA_wifi_blth\PonchoEDUCIAA_WIFI_BLT-cache.lib</uri>
-    </library>
-    <library logical="device">
-      <uri>D:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+      <uri>E:\Embebidos\Materias\Diseño de PCB\Proyectos\PonchoEDUCIAA_WIFI_BLT\PonchoEDUCIAA_WIFI_BLT-cache.lib</uri>
     </library>
   </libraries>
   <nets>
