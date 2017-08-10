@@ -15,7 +15,7 @@ encoding utf-8
 Sheet 1 1
 Title "Poncho EDU-CIAA WIFI-BLUETOOTH"
 Date ""
-Rev "1.1"
+Rev "1.2"
 Comp "Carrera de Especialización en Sistemas Embebidos"
 Comment1 "Curso: Diseño de PCB"
 Comment2 "Licencia BSD"

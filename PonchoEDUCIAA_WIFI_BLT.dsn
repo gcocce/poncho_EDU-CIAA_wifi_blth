@@ -1,0 +1,612 @@
+(pcb "E:\Embebidos\Materias\Diseño de PCB\Proyectos\PonchoEDUCIAA_WIFI_BLT\PonchoEDUCIAA_WIFI_BLT.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "4.0.6")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer TOP
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer BOTTOM
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  134493 -75565  134493 -132715  186182 -132715  186182 -75565
+            134493 -75565  134493 -75565)
+    )
+    (plane GND (polygon BOTTOM 0  133604 -74676  187071 -74676  187071 -133604  133731 -133604))
+    (via "Via[0-1]_1270:700_um")
+    (rule
+      (width 300)
+      (clearance 300.1)
+      (clearance 300.1 (type default_smd))
+      (clearance 75 (type smd_smd))
+    )
+  )
+  (placement
+    (component Capacitors_SMD:C_0603_HandSoldering
+      (place C1 139700 -109220 front 180 (PN 0,1uF))
+      (place C2 139700 -105410 front 180 (PN 10uF))
+      (place C3 147701 -115189 front 270 (PN 1nF))
+      (place C4 146050 -106680 front 270 (PN 0,1nF))
+      (place C5 166370 -100330 front 0 (PN 1nF))
+    )
+    (component PonchoEDUCIAA_WIFI_BLTH:CON_PALETA_3
+      (place J1 166370 -80010 front 0 (PN UART))
+    )
+    (component Buttons_Switches_THT:SW_PUSH_6mm
+      (place SW1 140970 -122301 front 0 (PN Reset))
+    )
+    (component Buttons_Switches_THT:SW_Micro_SPST
+      (place SW2 166370 -105410 front 0 (PN Boot))
+    )
+    (component "PonchoEDUCIAA_WIFI_BLTH:ESP32-WROOM"
+      (place U1 148590 -86360 front 180 (PN "ESP32-WROOM"))
+    )
+    (component PonchoEDUCIAA_WIFI_BLTH:Conn_Poncho_Derecha
+      (place XA1 178500 -79000 front 0 (PN Conn_Poncho2P_2x_20x2))
+    )
+    (component PonchoEDUCIAA_WIFI_BLTH:Fiducial_1mm
+      (place F1 136779 -130429 front 0 (PN FIDUCIAL))
+      (place F2 168148 -129032 front 0 (PN FIDUCIAL))
+      (place F3 136779 -77851 front 0 (PN FIDUCIAL))
+    )
+    (component Resistors_SMD:R_0805_HandSoldering
+      (place R1 166243 -117348 front 0 (PN 402))
+      (place R2 152400 -106680 front 90 (PN 10k))
+      (place R3 141097 -115062 front 90 (PN 470))
+      (place R4 163830 -93980 front 90 (PN 402))
+      (place R5 168910 -93980 front 270 (PN 402))
+      (place R6 158750 -112141 front 180 (PN 470))
+      (place R7 166243 -112141 front 180 (PN 5k))
+      (place R8 157480 -106680 front 90 (PN 5k))
+    )
+    (component LEDs:LED_0805
+      (place D1 166370 -123317 front 90 (PN LED_Rojo))
+      (place D2 168910 -87630 front 270 (PN LED_Verde))
+      (place D3 163830 -87630 front 270 (PN LED_Amarillo))
+    )
+    (component PonchoEDUCIAA_WIFI_BLTH:Logo_Poncho
+      (place G1 156718 -120777 front 0 (PN "WIFI-BLTH"))
+    )
+  )
+  (library
+    (image Capacitors_SMD:C_0603_HandSoldering
+      (outline (path signal 100  -800 -400  -800 400))
+      (outline (path signal 100  800 -400  -800 -400))
+      (outline (path signal 100  800 400  800 -400))
+      (outline (path signal 100  -800 400  800 400))
+      (outline (path signal 120  -350 600  350 600))
+      (outline (path signal 120  350 -600  -350 -600))
+      (outline (path signal 50  -1800 650  1800 650))
+      (outline (path signal 50  -1800 650  -1800 -650))
+      (outline (path signal 50  1800 -650  1800 650))
+      (outline (path signal 50  1800 -650  -1800 -650))
+      (pin Rect[T]Pad_1200x750_um 1 -950 0)
+      (pin Rect[T]Pad_1200x750_um 2 950 0)
+    )
+    (image PonchoEDUCIAA_WIFI_BLTH:CON_PALETA_3
+      (outline (path signal 127  3830 3200  3830 -2600))
+      (outline (path signal 127  -3830 3200  3830 3200))
+      (outline (path signal 127  -3830 -2600  -3830 3200))
+      (outline (path signal 127  3830 -2600  -3830 -2600))
+      (outline (path signal 127  3830 -2000  -3830 -2000))
+      (pin Rect[A]Pad_1778x1778_um 1 -2540 0)
+      (pin Round[A]Pad_1778_um 2 0 0)
+      (pin Round[A]Pad_1778_um 3 2540 0)
+    )
+    (image Buttons_Switches_THT:SW_PUSH_6mm
+      (outline (path signal 100  3250 750  6250 750))
+      (outline (path signal 100  6250 750  6250 -5250))
+      (outline (path signal 100  6250 -5250  250 -5250))
+      (outline (path signal 100  250 -5250  250 750))
+      (outline (path signal 100  250 750  3250 750))
+      (outline (path signal 50  7750 -6000  8000 -6000))
+      (outline (path signal 50  8000 -6000  8000 -5750))
+      (outline (path signal 50  7750 1500  8000 1500))
+      (outline (path signal 50  8000 1500  8000 1250))
+      (outline (path signal 50  -1500 1250  -1500 1500))
+      (outline (path signal 50  -1500 1500  -1250 1500))
+      (outline (path signal 50  -1500 -5750  -1500 -6000))
+      (outline (path signal 50  -1500 -6000  -1250 -6000))
+      (outline (path signal 50  -1250 1500  7750 1500))
+      (outline (path signal 50  -1500 -5750  -1500 1250))
+      (outline (path signal 50  7750 -6000  -1250 -6000))
+      (outline (path signal 50  8000 1250  8000 -5750))
+      (outline (path signal 120  1000 -5500  5500 -5500))
+      (outline (path signal 120  -250 -1500  -250 -3000))
+      (outline (path signal 120  5500 1000  1000 1000))
+      (outline (path signal 120  6750 -3000  6750 -1500))
+      (outline (path signal 100  5265.56 -2250  5166.92 -2872.84  4880.63 -3434.72  4434.72 -3880.63
+            3872.84 -4166.92  3250 -4265.56  2627.16 -4166.92  2065.28 -3880.63
+            1619.37 -3434.72  1333.08 -2872.84  1234.44 -2250  1333.08 -1627.16
+            1619.37 -1065.28  2065.28 -619.374  2627.16 -333.084  3250 -234.436
+            3872.84 -333.084  4434.72 -619.374  4880.63 -1065.28  5166.92 -1627.16))
+      (pin Round[A]Pad_2000_um (rotate 90) 2 0 -4500)
+      (pin Round[A]Pad_2000_um (rotate 90) 1 0 0)
+      (pin Round[A]Pad_2000_um (rotate 90) 2@1 6500 -4500)
+      (pin Round[A]Pad_2000_um (rotate 90) 1@1 6500 0)
+    )
+    (image Buttons_Switches_THT:SW_Micro_SPST
+      (outline (path signal 120  -3810 -1270  -3810 1270))
+      (outline (path signal 120  -3810 1270  3810 1270))
+      (outline (path signal 120  3810 1270  3810 -1270))
+      (outline (path signal 120  3810 -1270  -3810 -1270))
+      (outline (path signal 120  -1270 1270  -1270 -1270))
+      (pin Rect[A]Pad_1397x1397_um 1 -2540 0)
+      (pin Round[A]Pad_1397_um 2 0 0)
+      (pin Round[A]Pad_1397_um 3 2540 0)
+    )
+    (image "PonchoEDUCIAA_WIFI_BLTH:ESP32-WROOM"
+      (outline (path signal 500  10190 -6604  10176.1 -6691.76  10135.7 -6770.92  10072.9 -6833.74
+            9993.75 -6874.08  9906 -6887.98  9818.25 -6874.08  9739.08 -6833.74
+            9676.25 -6770.92  9635.92 -6691.76  9622.02 -6604  9635.92 -6516.24
+            9676.25 -6437.08  9739.08 -6374.26  9818.25 -6333.92  9906 -6320.02
+            9993.75 -6333.92  10072.9 -6374.26  10135.7 -6437.08  10176.1 -6516.24))
+      (outline (path signal 150  -9000 -6750  9000 -6750))
+      (outline (path signal 150  9000 -12750  9000 12750))
+      (outline (path signal 150  -9000 -12750  -9000 12750))
+      (outline (path signal 150  -9000 12750  9000 12750))
+      (outline (path signal 150  -9000 -12750  9000 -12750))
+      (pin Oval[T]Pad_2500x900_um 38 -9000 -5250)
+      (pin Oval[T]Pad_2500x900_um 37 -9000 -3980)
+      (pin Oval[T]Pad_2500x900_um 36 -9000 -2710)
+      (pin Oval[T]Pad_2500x900_um 35 -9000 -1440)
+      (pin Oval[T]Pad_2500x900_um 34 -9000 -170)
+      (pin Oval[T]Pad_2500x900_um 33 -9000 1100)
+      (pin Oval[T]Pad_2500x900_um 32 -9000 2370)
+      (pin Oval[T]Pad_2500x900_um 31 -9000 3640)
+      (pin Oval[T]Pad_2500x900_um 30 -9000 4910)
+      (pin Oval[T]Pad_2500x900_um 29 -9000 6180)
+      (pin Oval[T]Pad_2500x900_um 28 -9000 7450)
+      (pin Oval[T]Pad_2500x900_um 27 -9000 8720)
+      (pin Oval[T]Pad_2500x900_um 26 -9000 9990)
+      (pin Oval[T]Pad_2500x900_um 25 -9000 11260)
+      (pin Oval[T]Pad_900x2500_um 24 -5715 12750)
+      (pin Oval[T]Pad_900x2500_um 23 -4445 12750)
+      (pin Oval[T]Pad_900x2500_um 22 -3175 12750)
+      (pin Oval[T]Pad_900x2500_um 21 -1905 12750)
+      (pin Oval[T]Pad_900x2500_um 20 -635 12750)
+      (pin Oval[T]Pad_900x2500_um 19 635 12750)
+      (pin Oval[T]Pad_900x2500_um 18 1905 12750)
+      (pin Oval[T]Pad_900x2500_um 17 3175 12750)
+      (pin Oval[T]Pad_900x2500_um 16 4445 12750)
+      (pin Oval[T]Pad_900x2500_um 15 5715 12750)
+      (pin Oval[T]Pad_2500x900_um 14 9000 11260)
+      (pin Oval[T]Pad_2500x900_um 13 9000 9990)
+      (pin Oval[T]Pad_2500x900_um 12 9000 8720)
+      (pin Oval[T]Pad_2500x900_um 11 9000 7450)
+      (pin Oval[T]Pad_2500x900_um 10 9000 6180)
+      (pin Oval[T]Pad_2500x900_um 9 9000 4910)
+      (pin Oval[T]Pad_2500x900_um 8 9000 3640)
+      (pin Oval[T]Pad_2500x900_um 7 9000 2370)
+      (pin Oval[T]Pad_2500x900_um 6 9000 1100)
+      (pin Oval[T]Pad_2500x900_um 5 9000 -170)
+      (pin Oval[T]Pad_2500x900_um 4 9000 -1440)
+      (pin Oval[T]Pad_2500x900_um 3 9000 -2710)
+      (pin Oval[T]Pad_2500x900_um 2 9000 -3980)
+      (pin Oval[T]Pad_2500x900_um 1 9000 -5250)
+      (pin Rect[T]Pad_6000x6000_um 39 300 2450)
+    )
+    (image PonchoEDUCIAA_WIFI_BLTH:Conn_Poncho_Derecha
+      (outline (path signal 150  -1270 -49530  -1270 1270))
+      (outline (path signal 150  3810 -49530  3810 1270))
+      (outline (path signal 150  3810 -49530  -1270 -49530))
+      (outline (path signal 150  3810 1270  -1270 1270))
+      (pin Rect[A]Pad_1524x2000_um (rotate 270) 1 0 0)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 2 2540 0)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 11 0 -12700)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 4 2540 -2540)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 13 0 -15240)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 6 2540 -5080)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 15 0 -17780)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 8 2540 -7620)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 17 0 -20320)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 10 2540 -10160)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 19 0 -22860)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 12 2540 -12700)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 21 0 -25400)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 14 2540 -15240)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 23 0 -27940)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 16 2540 -17780)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 25 0 -30480)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 18 2540 -20320)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 27 0 -33020)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 20 2540 -22860)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 29 0 -35560)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 22 2540 -25400)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 31 0 -38100)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 24 2540 -27940)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 26 2540 -30480)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 33 0 -40640)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 28 2540 -33020)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 32 2540 -38100)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 34 2540 -40640)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 36 2540 -43180)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 38 2540 -45720)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 35 0 -43180)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 37 0 -45720)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 3 0 -2540)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 5 0 -5080)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 7 0 -7620)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 9 0 -10160)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 39 0 -48260)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 40 2540 -48260)
+      (pin Oval[A]Pad_1524x2000_um (rotate 270) 30 2540 -35560)
+    )
+    (image PonchoEDUCIAA_WIFI_BLTH:Fiducial_1mm
+      (pin Round[T]Pad_1000_um 1 0 0)
+    )
+    (image Resistors_SMD:R_0805_HandSoldering
+      (outline (path signal 100  -1000 -620  -1000 620))
+      (outline (path signal 100  1000 -620  -1000 -620))
+      (outline (path signal 100  1000 620  1000 -620))
+      (outline (path signal 100  -1000 620  1000 620))
+      (outline (path signal 120  600 -880  -600 -880))
+      (outline (path signal 120  -600 880  600 880))
+      (outline (path signal 50  -2350 900  2350 900))
+      (outline (path signal 50  -2350 900  -2350 -900))
+      (outline (path signal 50  2350 -900  2350 900))
+      (outline (path signal 50  2350 -900  -2350 -900))
+      (pin Rect[T]Pad_1500x1300_um 1 -1350 0)
+      (pin Rect[T]Pad_1500x1300_um 2 1350 0)
+    )
+    (image LEDs:LED_0805
+      (outline (path signal 120  -1800 700  -1800 -700))
+      (outline (path signal 100  -400 400  -400 -400))
+      (outline (path signal 100  -400 0  200 400))
+      (outline (path signal 100  200 -400  -400 0))
+      (outline (path signal 100  200 400  200 -400))
+      (outline (path signal 100  1000 -600  -1000 -600))
+      (outline (path signal 100  1000 600  1000 -600))
+      (outline (path signal 100  -1000 600  1000 600))
+      (outline (path signal 100  -1000 -600  -1000 600))
+      (outline (path signal 120  -1800 -700  1000 -700))
+      (outline (path signal 120  -1800 700  1000 700))
+      (outline (path signal 50  1950 850  1950 -850))
+      (outline (path signal 50  1950 -850  -1950 -850))
+      (outline (path signal 50  -1950 -850  -1950 850))
+      (outline (path signal 50  -1950 850  1950 850))
+      (pin Rect[T]Pad_1200x1200_um (rotate 180) 2 1100 0)
+      (pin Rect[T]Pad_1200x1200_um (rotate 180) 1 -1100 0)
+    )
+    (image PonchoEDUCIAA_WIFI_BLTH:Logo_Poncho
+    )
+    (padstack Round[T]Pad_1000_um
+      (shape (circle TOP 1000))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1397_um
+      (shape (circle TOP 1397))
+      (shape (circle BOTTOM 1397))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1778_um
+      (shape (circle TOP 1778))
+      (shape (circle BOTTOM 1778))
+      (attach off)
+    )
+    (padstack Round[A]Pad_2000_um
+      (shape (circle TOP 2000))
+      (shape (circle BOTTOM 2000))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1524x2000_um
+      (shape (path TOP 1524  0 -238  0 238))
+      (shape (path BOTTOM 1524  0 -238  0 238))
+      (attach off)
+    )
+    (padstack Oval[T]Pad_2500x900_um
+      (shape (path TOP 900  -800 0  800 0))
+      (attach off)
+    )
+    (padstack Oval[T]Pad_900x2500_um
+      (shape (path TOP 900  0 -800  0 800))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_6000x6000_um
+      (shape (rect TOP -3000 -3000 3000 3000))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1200x750_um
+      (shape (rect TOP -600 -375 600 375))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1200x1200_um
+      (shape (rect TOP -600 -600 600 600))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1397x1397_um
+      (shape (rect TOP -698.5 -698.5 698.5 698.5))
+      (shape (rect BOTTOM -698.5 -698.5 698.5 698.5))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1500x1300_um
+      (shape (rect TOP -750 -650 750 650))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1524x2000_um
+      (shape (rect TOP -762 -1000 762 1000))
+      (shape (rect BOTTOM -762 -1000 762 1000))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1778x1778_um
+      (shape (rect TOP -889 -889 889 889))
+      (shape (rect BOTTOM -889 -889 889 889))
+      (attach off)
+    )
+    (padstack "Via[0-1]_1270:700_um"
+      (shape (circle TOP 1270))
+      (shape (circle BOTTOM 1270))
+      (attach off)
+    )
+  )
+  (network
+    (net GND
+      (pins C1-1 C2-1 C3-2 C4-2 C5-1 J1-3 SW1-1 SW1-1@1 SW2-2 U1-38 U1-15 U1-1 U1-39
+        XA1-4 XA1-20 XA1-22 XA1-24 XA1-26 XA1-28 XA1-32 XA1-38 XA1-40 XA1-30 R8-1
+        D1-1 D2-1 D3-1)
+    )
+    (net "Net-(C3-Pad1)"
+      (pins C3-1 SW1-2 SW1-2@1 R3-1)
+    )
+    (net "Net-(C4-Pad1)"
+      (pins C4-1 U1-3 R2-2 R3-2)
+    )
+    (net "Net-(C5-Pad2)"
+      (pins C5-2 SW2-3 R6-1)
+    )
+    (net "Net-(D1-Pad2)"
+      (pins R1-1 D1-2)
+    )
+    (net "Net-(D2-Pad2)"
+      (pins R5-2 D2-2)
+    )
+    (net "Net-(D3-Pad2)"
+      (pins R4-2 D3-2)
+    )
+    (net "Net-(J1-Pad1)"
+      (pins J1-1 U1-35 XA1-23 R5-1)
+    )
+    (net "Net-(J1-Pad2)"
+      (pins J1-2 U1-34 XA1-25 R4-1)
+    )
+    (net +3V3
+      (pins C1-2 C2-2 U1-2 XA1-1 R1-2 R2-1 R7-1)
+    )
+    (net "Net-(SW2-Pad1)"
+      (pins SW2-1)
+    )
+    (net "Net-(U1-Pad37)"
+      (pins U1-37)
+    )
+    (net "Net-(U1-Pad36)"
+      (pins U1-36)
+    )
+    (net "Net-(U1-Pad33)"
+      (pins U1-33)
+    )
+    (net "Net-(U1-Pad32)"
+      (pins U1-32)
+    )
+    (net "Net-(U1-Pad31)"
+      (pins U1-31)
+    )
+    (net "Net-(U1-Pad30)"
+      (pins U1-30)
+    )
+    (net "Net-(U1-Pad29)"
+      (pins U1-29)
+    )
+    (net "Net-(U1-Pad28)"
+      (pins U1-28)
+    )
+    (net "Net-(U1-Pad27)"
+      (pins U1-27)
+    )
+    (net "Net-(U1-Pad26)"
+      (pins U1-26)
+    )
+    (net "Net-(U1-Pad23)"
+      (pins U1-23)
+    )
+    (net "Net-(U1-Pad22)"
+      (pins U1-22)
+    )
+    (net "Net-(U1-Pad21)"
+      (pins U1-21)
+    )
+    (net "Net-(U1-Pad20)"
+      (pins U1-20)
+    )
+    (net "Net-(U1-Pad19)"
+      (pins U1-19)
+    )
+    (net "Net-(U1-Pad18)"
+      (pins U1-18)
+    )
+    (net "Net-(U1-Pad17)"
+      (pins U1-17)
+    )
+    (net "Net-(U1-Pad16)"
+      (pins U1-16)
+    )
+    (net "Net-(U1-Pad14)"
+      (pins U1-14)
+    )
+    (net "Net-(U1-Pad13)"
+      (pins U1-13)
+    )
+    (net "Net-(U1-Pad12)"
+      (pins U1-12)
+    )
+    (net "Net-(U1-Pad11)"
+      (pins U1-11)
+    )
+    (net "Net-(U1-Pad10)"
+      (pins U1-10)
+    )
+    (net "Net-(U1-Pad9)"
+      (pins U1-9)
+    )
+    (net "Net-(U1-Pad8)"
+      (pins U1-8)
+    )
+    (net "Net-(U1-Pad7)"
+      (pins U1-7)
+    )
+    (net "Net-(U1-Pad6)"
+      (pins U1-6)
+    )
+    (net "Net-(U1-Pad5)"
+      (pins U1-5)
+    )
+    (net "Net-(U1-Pad4)"
+      (pins U1-4)
+    )
+    (net "Net-(XA1-Pad2)"
+      (pins XA1-2)
+    )
+    (net "Net-(XA1-Pad11)"
+      (pins XA1-11)
+    )
+    (net "Net-(XA1-Pad13)"
+      (pins XA1-13)
+    )
+    (net "Net-(XA1-Pad6)"
+      (pins XA1-6)
+    )
+    (net "Net-(XA1-Pad15)"
+      (pins XA1-15)
+    )
+    (net "Net-(XA1-Pad8)"
+      (pins XA1-8)
+    )
+    (net "Net-(XA1-Pad17)"
+      (pins XA1-17)
+    )
+    (net "Net-(XA1-Pad10)"
+      (pins XA1-10)
+    )
+    (net "Net-(XA1-Pad19)"
+      (pins XA1-19)
+    )
+    (net "Net-(XA1-Pad12)"
+      (pins XA1-12)
+    )
+    (net "Net-(XA1-Pad21)"
+      (pins XA1-21)
+    )
+    (net "Net-(XA1-Pad14)"
+      (pins XA1-14)
+    )
+    (net "Net-(XA1-Pad16)"
+      (pins XA1-16)
+    )
+    (net "Net-(XA1-Pad18)"
+      (pins XA1-18)
+    )
+    (net "Net-(XA1-Pad27)"
+      (pins XA1-27)
+    )
+    (net "Net-(XA1-Pad29)"
+      (pins XA1-29)
+    )
+    (net "Net-(XA1-Pad31)"
+      (pins XA1-31)
+    )
+    (net "Net-(XA1-Pad33)"
+      (pins XA1-33)
+    )
+    (net "Net-(XA1-Pad34)"
+      (pins XA1-34)
+    )
+    (net "Net-(XA1-Pad36)"
+      (pins XA1-36)
+    )
+    (net "Net-(XA1-Pad35)"
+      (pins XA1-35)
+    )
+    (net "Net-(XA1-Pad37)"
+      (pins XA1-37)
+    )
+    (net "Net-(XA1-Pad3)"
+      (pins XA1-3)
+    )
+    (net "Net-(XA1-Pad5)"
+      (pins XA1-5)
+    )
+    (net "Net-(XA1-Pad7)"
+      (pins XA1-7)
+    )
+    (net "Net-(XA1-Pad9)"
+      (pins XA1-9)
+    )
+    (net "Net-(XA1-Pad39)"
+      (pins XA1-39)
+    )
+    (net "Net-(F1-Pad1)"
+      (pins F1-1)
+    )
+    (net "Net-(F2-Pad1)"
+      (pins F2-1)
+    )
+    (net "Net-(F3-Pad1)"
+      (pins F3-1)
+    )
+    (net "Net-(R6-Pad2)"
+      (pins U1-25 R6-2 R7-2)
+    )
+    (net "Net-(R8-Pad2)"
+      (pins U1-24 R8-2)
+    )
+    (class kicad_default "" +3V3 GND "Net-(C3-Pad1)" "Net-(C4-Pad1)" "Net-(C5-Pad2)"
+      "Net-(D1-Pad2)" "Net-(D2-Pad2)" "Net-(D3-Pad2)" "Net-(F1-Pad1)" "Net-(F2-Pad1)"
+      "Net-(F3-Pad1)" "Net-(J1-Pad1)" "Net-(J1-Pad2)" "Net-(R6-Pad2)" "Net-(R8-Pad2)"
+      "Net-(SW2-Pad1)" "Net-(U1-Pad10)" "Net-(U1-Pad11)" "Net-(U1-Pad12)"
+      "Net-(U1-Pad13)" "Net-(U1-Pad14)" "Net-(U1-Pad16)" "Net-(U1-Pad17)"
+      "Net-(U1-Pad18)" "Net-(U1-Pad19)" "Net-(U1-Pad20)" "Net-(U1-Pad21)"
+      "Net-(U1-Pad22)" "Net-(U1-Pad23)" "Net-(U1-Pad26)" "Net-(U1-Pad27)"
+      "Net-(U1-Pad28)" "Net-(U1-Pad29)" "Net-(U1-Pad30)" "Net-(U1-Pad31)"
+      "Net-(U1-Pad32)" "Net-(U1-Pad33)" "Net-(U1-Pad36)" "Net-(U1-Pad37)"
+      "Net-(U1-Pad4)" "Net-(U1-Pad5)" "Net-(U1-Pad6)" "Net-(U1-Pad7)" "Net-(U1-Pad8)"
+      "Net-(U1-Pad9)" "Net-(XA1-Pad10)" "Net-(XA1-Pad11)" "Net-(XA1-Pad12)"
+      "Net-(XA1-Pad13)" "Net-(XA1-Pad14)" "Net-(XA1-Pad15)" "Net-(XA1-Pad16)"
+      "Net-(XA1-Pad17)" "Net-(XA1-Pad18)" "Net-(XA1-Pad19)" "Net-(XA1-Pad2)"
+      "Net-(XA1-Pad21)" "Net-(XA1-Pad27)" "Net-(XA1-Pad29)" "Net-(XA1-Pad3)"
+      "Net-(XA1-Pad31)" "Net-(XA1-Pad33)" "Net-(XA1-Pad34)" "Net-(XA1-Pad35)"
+      "Net-(XA1-Pad36)" "Net-(XA1-Pad37)" "Net-(XA1-Pad39)" "Net-(XA1-Pad5)"
+      "Net-(XA1-Pad6)" "Net-(XA1-Pad7)" "Net-(XA1-Pad8)" "Net-(XA1-Pad9)"
+      (circuit
+        (use_via Via[0-1]_1270:700_um)
+      )
+      (rule
+        (width 300)
+        (clearance 300.1)
+      )
+    )
+  )
+  (wiring
+    (wire (path TOP 300  179324 -76835  183769 -76835)(net +3V3)(type protect))
+    (wire (path TOP 300  139590 -82380  137584 -82380)(net +3V3)(type protect))
+    (wire (path TOP 300  135636 -84328  137584 -82380)(net +3V3)(type protect))
+    (wire (path TOP 300  135636 -124968  135636 -84328)(net +3V3)(type protect))
+    (wire (path TOP 300  142367 -131699  135636 -124968)(net +3V3)(type protect))
+    (wire (path TOP 300  178500 -77659  179324 -76835)(net +3V3)(type protect))
+    (wire (path TOP 300  178500 -77659  178500 -79000)(net +3V3)(type protect))
+    (wire (path TOP 300  183134 -131699  142367 -131699)(net +3V3)(type protect))
+    (wire (path TOP 300  184531 -130302  183134 -131699)(net +3V3)(type protect))
+    (wire (path TOP 300  184531 -77597  184531 -130302)(net +3V3)(type protect))
+    (wire (path TOP 300  183769 -76835  184531 -77597)(net +3V3)(type protect))
+  )
+)
