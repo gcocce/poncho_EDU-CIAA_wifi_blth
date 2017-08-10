@@ -8,7 +8,7 @@ Se recorta la zona de cobre para que no pase bajo la antena.
 Se agrega "Industria Argentina" en la capa inferior.
 Se mejoró el posicionamiento y el ruteo aunque quedaron mejoras pendientes.
 Se achicó el borde del PCB para aprovechar mejor el espacio.
+Se exportaron nuevos archivos gerber.
+Se actualiza el presupuesto con kicost. (Bajó el precio!)
 
-Aún así entiendo que tiene mejoras que se pueden hacer en lo que hace al placemenet.
-Agregué un tutorial sobre el uso del Freerouting, que en esta ocasión me resultó útil como sugerencia pues tuve que tocar todo a mano para que quede mejor.
-
+Se agrega tutorial básico sobre el uso del Freerouting en la carpeta doc.
